@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContactRowView: View {
+    
     let image: String
     let content: String
     
@@ -15,7 +16,7 @@ struct ContactRowView: View {
         HStack {
             Image(systemName: "\(image)")
                 .foregroundColor(.blue)
-                .frame(width: 30)  // Think about it
+                .frame(width: 30)
             Text("\(content)")
         }
     }
