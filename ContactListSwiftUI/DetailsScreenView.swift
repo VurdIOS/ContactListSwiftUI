@@ -15,7 +15,7 @@ struct DetailsScreenView: View {
         List {
             HStack {
                 Spacer()
-                Image(systemName: "person.fill")
+                Image(systemName: person.icon)
                     .resizable()
                     .frame(width: 100, height: 100)
                 .padding()
@@ -25,7 +25,7 @@ struct DetailsScreenView: View {
             ContactRowView(image: "tray", content: person.email)
                   
            
-        } .navigationTitle("\(person.fullName)")
+        } .navigationTitle(person.fullName)
     }
 }
 

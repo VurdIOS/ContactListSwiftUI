@@ -6,7 +6,7 @@
 //
 // MARK: - Data Store
 
-class DataStore {
+final class DataStore {
     
     static let shared = DataStore()
     
@@ -50,16 +50,16 @@ class DataStore {
     ]
 
     let emailData = [
-    "www@asd.re",
-    "awasv@asv.re",
-    "wadf@gsdf.re",
-    "edvsd@sdge.re",
-    "ashuf@jsdf.re",
-    "sdfr@jdfge.re",
-    "sdfhre@jhdf.re",
-    "sdgwe@ahce.re",
-    "asdgefjd@rehd.re",
-    "asdfasgh@esrewr.re"
+        "www@asd.re",
+        "awasv@asv.re",
+        "wadf@gsdf.re",
+        "edvsd@sdge.re",
+        "ashuf@jsdf.re",
+        "sdfr@jdfge.re",
+        "sdfhre@jhdf.re",
+        "sdgwe@ahce.re",
+        "asdgefjd@rehd.re",
+        "asdfasgh@esrewr.re"
     ]
     
     private init() {}

@@ -13,7 +13,6 @@
 		3A060EBA2A064D31004AD2E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A060EB92A064D31004AD2E6 /* Preview Assets.xcassets */; };
 		3A060EC12A064DF6004AD2E6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A060EC02A064DF6004AD2E6 /* Person.swift */; };
 		3A060EC32A064DFE004AD2E6 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A060EC22A064DFE004AD2E6 /* DataStore.swift */; };
-		3A060EC52A0650BD004AD2E6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A060EC42A0650BD004AD2E6 /* DataManager.swift */; };
 		3A060EC92A06533B004AD2E6 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A060EC82A06533B004AD2E6 /* ContactListView.swift */; };
 		3A060ECD2A065452004AD2E6 /* DetailsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A060ECC2A065452004AD2E6 /* DetailsScreenView.swift */; };
 		3A060ECF2A0656FE004AD2E6 /* DetailsContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A060ECE2A0656FE004AD2E6 /* DetailsContactList.swift */; };
@@ -28,7 +27,6 @@
 		3A060EB92A064D31004AD2E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A060EC02A064DF6004AD2E6 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		3A060EC22A064DFE004AD2E6 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
-		3A060EC42A0650BD004AD2E6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		3A060EC82A06533B004AD2E6 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
 		3A060ECC2A065452004AD2E6 /* DetailsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreenView.swift; sourceTree = "<group>"; };
 		3A060ECE2A0656FE004AD2E6 /* DetailsContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsContactList.swift; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 		3A060EC72A065261004AD2E6 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				3A060EC42A0650BD004AD2E6 /* DataManager.swift */,
 				3A060EC22A064DFE004AD2E6 /* DataStore.swift */,
 			);
 			path = Services;
@@ -176,7 +173,6 @@
 			files = (
 				3A060EC12A064DF6004AD2E6 /* Person.swift in Sources */,
 				3A060ED52A066C37004AD2E6 /* ContactRowView.swift in Sources */,
-				3A060EC52A0650BD004AD2E6 /* DataManager.swift in Sources */,
 				3A060EC32A064DFE004AD2E6 /* DataStore.swift in Sources */,
 				3A060EC92A06533B004AD2E6 /* ContactListView.swift in Sources */,
 				3A060EB52A064D30004AD2E6 /* ContentView.swift in Sources */,

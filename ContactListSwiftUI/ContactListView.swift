@@ -14,7 +14,7 @@ struct ContactListView: View {
     var body: some View {
         NavigationStack {
             List(contactList) { contact in
-                NavigationLink(destination: DetailsScreenView(person: contact)) {        Text("\(contact.fullName)")
+                NavigationLink(destination: DetailsScreenView(person: contact)) {        Text(contact.fullName)
                 }
             }
             .navigationTitle("Contacts")

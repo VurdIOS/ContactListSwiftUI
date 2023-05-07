@@ -10,12 +10,12 @@ import Foundation
 
 struct Person: Hashable, Identifiable {
     
-    var id = UUID()
+    let id = UUID()
     let name: String
     let secondName: String
     let phoneNumber: String
     let email: String
-    let icon = "contactIcon"
+    let icon = "person.fill"
     
     var fullName: String {
         "\(name) \(secondName)"

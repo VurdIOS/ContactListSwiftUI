@@ -15,7 +15,7 @@ struct DetailsContactList: View {
         NavigationStack {
             List {
                 ForEach(contactList) { contact in
-                    Section("\(contact.fullName)") {
+                    Section(contact.fullName) {
                         ContactRowView(
                             image: "phone",
                             content: contact.phoneNumber
